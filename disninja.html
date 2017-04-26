@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Disappearing Ninja Assignment</title>
+        <link rel="stylesheet" type="text/css" href="disninja.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+             $(document).ready(function(){
+
+                $('img').click(function(){
+                    $(this).css('visibility','hidden');
+                });
+
+                $('.restore').click(function(){
+                    $('.pic').css('visibility','visible');
+                });
+             });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper" class="font">
+            <h3>jQuery - assignment1</h3>
+            <div id="picstore" class="center">
+                <img class="pic" src="croc.png" />
+                <img class="pic" src="croc.png" />
+                <img class="pic" src="croc.png" />
+                <img class="pic" src="croc.png" />
+                <img class="pic" src="croc.png" />
+                <img class="pic" src="croc.png" />
+                <img class="pic" src="croc.png" />
+                <img class="pic" src="croc.png" />
+            </div>
+            <button class="restore">Restore</button>
+        </div> <!--end of wrapper-->
+    </body>
+</html>

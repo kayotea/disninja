@@ -1,0 +1,33 @@
+/* Stylesheet for disninja.html */
+
+#wrapper {
+    background: lightblue;
+    margin: 0px auto;
+    width: 900px;
+    height: 550px;
+}
+
+h3{
+    background: lightpink;
+    margin: 10px;
+    padding: 10px;
+}
+#picstore{
+    background: lightgreen;
+    margin: 10px 0px;
+}
+.pic{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 5px;
+}
+.restore{
+    margin: 10px;
+}
+.center{
+    text-align: center;
+}
+.font{
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
